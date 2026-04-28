@@ -3,3 +3,5 @@ st.title("Machine Learning")
 st.write("Hello World")
 
 st.write("Deep Learning")
+
+st.image("Imagepre.png")
