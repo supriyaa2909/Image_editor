@@ -7,7 +7,7 @@ uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:
     st.session_state["uploaded_file"] = uploaded_file
-    st.switch_page("pages/editor.py")
+    st.switch_page("pages/photos.py")
 
 #height=st.slider("select the height",100,500)
 #width=st.slider("select the width",100,500)
