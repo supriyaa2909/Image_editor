@@ -4,6 +4,8 @@ import cv2
 import streamlit as st
 from filters import *
 from utils import *
+
+
 st.title("🖼️ Image Editing App")
 st.write("Upload an image and apply filters in real time.")
 
