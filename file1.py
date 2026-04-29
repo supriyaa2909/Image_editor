@@ -2,7 +2,6 @@ import streamlit as st
 import cv2
 st.title("Image Editor")
 st.write("Welcome! please upload image")
-st.set_page_config(page_title="Image Editor")
 
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 
